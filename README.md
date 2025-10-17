@@ -52,13 +52,18 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 
 # ⚙️ Ejecución del Proyecto
 
-## 🔧 1. Requisitos previos
+## 🚀 1. Clonar el repositorio
 
-Tener instalado Python 3.9+ e instaler las librerías del archivo requirements.txt con este comando:
+## 🚀 2. Crear un entorno virtual e instalar dependencias:
 
-pip install -r requirements.txt
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate   # En Linux/Mac
+   .venv\Scripts\activate    # En Windows
+   pip install -r requirements.txt
+   ```
 
-## 🚀 2. Cómo ejecutar el proyecto
+## 🚀 3. Cómo ejecutar el proyecto
 ### Opción 1: Desde Jupyter Notebook
 
 Ejecuta los notebooks en orden:
