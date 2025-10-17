@@ -85,7 +85,7 @@ El script main.py ejecutará todo el pipeline: preprocesamiento, entrenamiento y
 # 📊 Metodología
 ## 🧩 Aprendizaje Supervisado
 
-Se entrenaron los siguientes modelos:
+### Se entrenaron los siguientes modelos:
 
 Árboles de Decisión
 
@@ -95,7 +95,7 @@ Máquinas de Vectores de Soporte (SVM)
 
 Redes Neuronales (MLP)
 
-Cada modelo se evaluó en 8 configuraciones diferentes según:
+### Cada modelo se evaluó en 8 configuraciones diferentes según:
 
 Conversión y escalado de características categóricas
 
@@ -103,7 +103,7 @@ Inclusión o exclusión de outliers
 
 Balanceo o desbalanceo de clases
 
-Las métricas de evaluación fueron:
+### Las métricas de evaluación fueron:
 
 Accuracy
 
@@ -117,13 +117,13 @@ Además, se generaron curvas ROC y Precision-Recall para el caso 8.
 
 ## 🧭 Aprendizaje No Supervisado
 
-Se aplicaron los modelos:
+### Se aplicaron los modelos:
 
 K-Means (con método del codo y Silhouette Score)
 
 DBSCAN (determinando valores óptimos de ε y MinPts)
 
-Se evaluaron los resultados con:
+### Se evaluaron los resultados con:
 
 Inertia
 
