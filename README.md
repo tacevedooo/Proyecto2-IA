@@ -1,6 +1,6 @@
 # 📘 Proyecto: Clasificación y Agrupamiento de Aplicaciones de Google Play Store
 
-Asignatura: Introducción a la Inteligencia Artificial
+#### Asignatura: Introducción a la Inteligencia Artificial
 
 # 📌 Descripción General
 
@@ -36,20 +36,14 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 │   ├── processed/                 # Datasets preprocesados (normalizados, balanceados, etc.)
 │
 ├── notebooks/
-│   ├── 1_preprocessing.ipynb      # Limpieza y preparación del dataset
-│   ├── 2_supervised_models.ipynb  # Modelos supervisados (Árbol, KNN, SVM, NN)
-│   ├── 3_unsupervised_models.ipynb# Modelos no supervisados (K-Means, DBSCAN)
-│   ├── 4_visualizations.ipynb     # Gráficas y análisis de resultados
-│
-├── src/
-│   ├── preprocessing.py           # Funciones para normalización, outliers y balanceo
-│   ├── models_supervised.py       # Entrenamiento de modelos supervisados
-│   ├── models_unsupervised.py     # Entrenamiento de modelos no supervisados
-│   ├── evaluation.py              # Cálculo de métricas y generación de curvas ROC
+│   ├── 1_preprocessing.ipynb       # Limpieza y preparación del dataset
+│   ├── 2_supervised_models.ipynb   # Modelos supervisados (Árbol, KNN, SVM, NN)
+│   ├── 3_unsupervised_models.ipynb # Modelos no supervisados (K-Means, DBSCAN)
+│   ├── 4_visualizations.ipynb      # Gráficas y análisis de resultados
 │
 ├── results/
 │   ├── figures/                   # Gráficas generadas (barras, ROC, silhouette, etc.)
-│   ├── tables/                    # Resultados en formato CSV o Excel
+│   ├── tables/                    # Resultados en formato CSV
 │
 ├── README.md                      # Descripción general del proyecto
 ├── requirements.txt               # Librerías necesarias para ejecutar el proyecto
@@ -60,7 +54,7 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 
 ## 🔧 1. Requisitos previos
 
-Asegúrate de tener instalado Python 3.9+ y las siguientes librerías (puedes instalarlas automáticamente con el archivo requirements.txt):
+Tener instalado Python 3.9+ e instaler las librerías del archivo requirements.txt con este comando:
 
 pip install -r requirements.txt
 
