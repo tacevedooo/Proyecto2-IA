@@ -29,7 +29,7 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 
 # 📂 Estructura del Proyecto
 
-'''
+```
 📦 google-play-ml-project
 ├── data/
 │   ├── googleplaystore.csv        # Dataset original
@@ -54,7 +54,7 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 ├── README.md                      # Descripción general del proyecto
 ├── requirements.txt               # Librerías necesarias para ejecutar el proyecto
 └── main.py                        # Script principal para correr el proyecto
-'''
+```
 
 # ⚙️ Ejecución del Proyecto
 
