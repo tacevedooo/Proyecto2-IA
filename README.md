@@ -34,6 +34,8 @@ Visualizar y analizar los resultados para comparar el comportamiento de los mode
 ├── data/
 │   ├── googleplaystore.csv        # Dataset original
 │   ├── processed/                 # Datasets preprocesados (normalizados, balanceados, etc.)
+|       ├── subset_googleplaystore_rows5200_seed5200      # Subconjunto de datos a usar en el trabajo
+│       ├── metadata.json   # Necesaria para luego reproducir exactamente el mismo subconjunto de datos
 │
 ├── notebooks/
 │   ├── 1_preprocessing.ipynb       # Limpieza y preparación del dataset
