@@ -2,28 +2,15 @@
 #### Asignatura: Introducción a la Inteligencia Artificial
 
 ## Descripción General
-Este proyecto implementa un sistema de análisis de datos y aprendizaje automático sobre el dataset público “Life Style Data” disponible en Kaggle. El objetivo es aplicar y comparar diferentes técnicas de aprendizaje supervisado y no supervisado para tareas de clasificación y agrupamiento de personas según sus características de estilo de vida (edad, género, actividad, etc.).
-Se pretende identificar patrones en el estilo de vida y predecir alguna categoría relevante, así como agrupar patrones de comportamiento similares.
+Este proyecto busca predecir el tipo de entrenamiento físico (Workout_Type) que realiza una persona a partir de sus características corporales y datos fisiológicos.
+Se utilizará el dataset Life Style Data de Kaggle, que incluye variables como edad, género, peso, altura, frecuencia cardíaca y duración de la sesión.
 
-## Objetivo General
+El objetivo es construir modelos de clasificación supervisada (Árbol de Decisión, KNN, SVM y Red Neuronal) que permitan identificar patrones en los datos y determinar qué factores influyen más en el tipo de ejercicio que una persona realiza.
+
+También se aplicará clustering (K-Means y DBSCAN) para agrupar individuos con perfiles similares según su rendimiento físico y hábitos de entrenamiento.
+
+## Objetivo
 Desarrollar una aplicación (pipeline) que, a partir de este dataset abierto, implemente y compare diferentes técnicas de aprendizaje de máquinas para clasificación y agrupamiento.
-
-#### Objetivos Específicos
-- Seleccionar y justificar una variable objetivo adecuada del dataset con al menos 4 clases (o convertirla para tener 4+ clases si es necesario).
-
-- Realizar el preprocesamiento del dataset: normalización de variables numéricas, manejo de valores faltantes, tratamiento de outliers y, de ser necesario, balanceo de clases.
-
-- Implementar algoritmos supervisados: Árboles de Decisión, K-Vecinos Más Cercanos (KNN), Máquinas de Vectores de Soporte (SVM) y Redes Neuronales (MLP).
-
-- Implementar algoritmos no supervisados: K-Means y DBSCAN para detectar grupos o segmentos de estilo de vida.
-
-- Evaluar los modelos supervisados mediante métricas de desempeño: accuracy, precisión, recall, F1-score, además de curvas ROC y Precision-Recall si la variable objetivo lo permite.
-
-- Evaluar los modelos no supervisados mediante métricas de agrupamiento como Silhouette Score y análisis del codo para K-Means.
-
-- Visualizar y analizar los resultados para comparar el comportamiento de los modelos bajo diferentes configuraciones (por ejemplo, con/sin outliers, diferentes escalados, diferentes subconjuntos de variables).
-
-- Interpretar los hallazgos: ¿qué patrones de estilo de vida emergen? ¿qué variables son más predictivas? ¿qué segmentos se identifican? ¿qué implicaciones podría tener en un contexto real?
 
 ## Estructura del Proyecto
 
