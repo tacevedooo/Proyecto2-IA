@@ -27,7 +27,7 @@ Desarrollar una aplicación (pipeline) que, a partir de este dataset abierto, im
 
 ## Estructura del Proyecto
 
-´´´
+```
 📦 life-style-project
 ├── data/
 │   ├── life_style_data.csv           # Dataset original
@@ -49,19 +49,19 @@ Desarrollar una aplicación (pipeline) que, a partir de este dataset abierto, im
 ├── README.md                           # Descripción general del proyecto
 ├── requirements.txt                    # Librerías necesarias para ejecutar el proyecto
 └── main.py                             # Script principal para correr todo el pipeline
-´´´
+```
 
 ## Ejecución del Proyecto
 
 1. Clonar el repositorio
 2. Crear un entorno virtual e instalar dependencias:
 
-´´´
+```
 python -m venv .venv
 source .venv/bin/activate   # En Linux/Mac
 .venv\Scripts\activate       # En Windows
 pip install -r requirements.txt
-´´´
+```
 
 3. Cómo ejecutar el proyecto
 
